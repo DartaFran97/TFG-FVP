@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "895376806820",
+    "firebase_url": "https://fencingcoachapplication-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "fencingcoachapplication",
+    "storage_bucket": "fencingcoachapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895376806820:android:45593a7b086510f9c8a731",
+        "android_client_info": {
+          "package_name": "com.example.fencingcoachapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAtL8eiUplAgq6w0pI2qFLl_MrvTV5ZAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

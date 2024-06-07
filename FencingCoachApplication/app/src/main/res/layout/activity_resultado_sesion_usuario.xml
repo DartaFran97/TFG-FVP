@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AC82F6"
+    tools:context=".ResultadoSesionUsuarioActivity">
+    <LinearLayout
+        android:layout_width="349dp"
+        android:layout_height="233dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fencing Coach"
+            android:textAlignment="center"
+            android:textColor="#673AB7"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/esgrima" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="378dp"
+        android:layout_height="472dp"
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.992">
+
+        <TextView
+            android:id="@+id/editTextNAsaltos"
+            android:layout_width="302dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="#6750A3"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="nº Asaltos"
+            android:textAlignment="center"
+            android:textColor="#FEFAFD"
+            android:textColorHint="#FEFAFD"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/NAsaltos"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:clickable="false"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.474"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.699">
+
+                <TextView
+                    android:id="@+id/editTextNVictorias"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="30dp"
+                    android:background="#6750A3"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:text="victorias"
+                    android:textAlignment="center"
+                    android:textColor="#FEFAFD"
+                    android:textColorHint="#FEFAFD"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/editVictorias"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:clickable="false"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="171dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.474"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.699">
+
+                <TextView
+                    android:id="@+id/editTextNDerotas"
+                    android:layout_width="161dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="30dp"
+                    android:background="#6750A3"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:text="derrotas"
+                    android:textAlignment="center"
+                    android:textColor="#FEFAFD"
+                    android:textColorHint="#FEFAFD"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/editDerrotas"
+                    android:layout_width="161dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:clickable="false"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="103dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.474"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.699">
+
+                <TextView
+                    android:id="@+id/editTextNTocadosDados"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="30dp"
+                    android:background="#6750A3"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:text="Dados"
+                    android:textAlignment="center"
+                    android:textColor="#FEFAFD"
+                    android:textColorHint="#FEFAFD"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/editTocadosDados"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:clickable="false"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.474"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.699">
+
+                <TextView
+                    android:id="@+id/editTextNTocadosRecibidos"
+                    android:layout_width="162dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="30dp"
+                    android:background="#6750A3"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:text="Recibidos"
+                    android:textAlignment="center"
+                    android:textColor="#FEFAFD"
+                    android:textColorHint="#FEFAFD"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/editTocadosRecibidos"
+                    android:layout_width="162dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:clickable="false"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/editTextCoeficiente"
+                android:layout_width="302dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="#6750A3"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:text="Coeficiente"
+                android:textAlignment="center"
+                android:textColor="#FEFAFD"
+                android:textColorHint="#FEFAFD"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/editCoeficiente"
+                android:layout_width="333dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:hint="0"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:clickable="false"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonAtrasResaultadoUsuario"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:background="@drawable/rounded_button"
+            android:onClick="AtrasMenuUsuario"
+            android:text="Atras"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+   </androidx.constraintlayout.widget.ConstraintLayout>

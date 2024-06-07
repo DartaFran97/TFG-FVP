@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categoria_array">
+        <item>Infantil</item>
+        <item>Cadete</item>
+        <item>Junior</item>
+        <item>Abs</item>
+    </string-array>
+    <string-array name="arma_array">
+        <item>Espada</item>
+        <item>Sable</item>
+        <item>Florete</item>
+    </string-array>
+</resources>
